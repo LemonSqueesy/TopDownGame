@@ -1,2 +1,8 @@
 Temp
 Library
+*.csproj
+*.sln
+.vs
+obj
+Debug
+bin
