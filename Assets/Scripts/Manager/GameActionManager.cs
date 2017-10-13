@@ -45,24 +45,6 @@ public class GameActionManager : MonoBehaviour
     {
         WindowsInputSetting = new WindowsPair[System.Enum.GetNames(typeof(GameAction)).Length];
         InputMobileSetting = new AndroidPair[System.Enum.GetNames(typeof(GameAction)).Length];
-
-        //WindowsInputSetting[0].Action = GameAction.MoveLeft;
-        //WindowsInputSetting[0].Key = KeyCode.A;
-        //WindowsInputSetting[1].Action = GameAction.MoveRight;
-        //WindowsInputSetting[1].Key = KeyCode.D;
-        //WindowsInputSetting[2].Action = GameAction.MoveUp;
-        //WindowsInputSetting[2].Key = KeyCode.W;
-        //WindowsInputSetting[3].Action = GameAction.MoveDown;
-        //WindowsInputSetting[3].Key = KeyCode.S;
-
-        //InputMobileSetting[0].Action = GameAction.MoveLeft;
-        //InputMobileSetting[0].Key = "Horizontal";
-        //InputMobileSetting[1].Action = GameAction.MoveRight;
-        //InputMobileSetting[1].Key = "Horizontal";
-        //InputMobileSetting[2].Action = GameAction.MoveUp;
-        //InputMobileSetting[2].Key = "Vertical";
-        //InputMobileSetting[3].Action = GameAction.MoveDown;
-        //InputMobileSetting[3].Key = "Vertical";
     }
 
     public void GetMouseLook2D(Vector3 pos, out Vector2 mousePosWorld, out Quaternion lookRot)
@@ -79,13 +61,18 @@ public class GameActionManager : MonoBehaviour
         if ((Application.platform == RuntimePlatform.Android || UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.Android) && !WindowsDebug)
             return GetAndroidAction(action);
         else
-            return GetWindowsAction(action);
+             return GetWindowsAction(action);
+
     }
 
 
     private bool GetWindowsAction(GameAction action)
     {
-        return Input.GetKey(WindowsInputSetting.First(x => x.Action == action).Key);
+        WindowsPair? item = WindowsInputSetting.FirstOrDefault(x => x.Action == action);
+        if (item.HasValue)
+            return Input.GetKey(item.Value.Key);
+        else
+            return false;
     }
 
     private bool GetAndroidAction(GameAction action)

@@ -8,12 +8,15 @@ public class PlayerMove : MonoBehaviour
 
     public float speed;
     public float runSpeed;
+    public int fatigue;
+    private int saveFatigue;
 
     GameActionManager man;
 
 
     void Start()
     {
+        saveFatigue = fatigue;
         man = GameActionManager.Instance;
     }
 
@@ -33,19 +36,39 @@ public class PlayerMove : MonoBehaviour
             }
             if (man.GetAction(GameActionManager.GameAction.MoveDown))
             {
-
+                transform.position -= transform.right * speed * Time.deltaTime;
             }
             if (man.GetAction(GameActionManager.GameAction.MoveRight))
             {
-
+                transform.position += transform.up * speed * Time.deltaTime;
             }
             if (man.GetAction(GameActionManager.GameAction.MoveLeft))
             {
-
+                transform.position -= transform.up * speed * Time.deltaTime;
             }
-            if (man.GetAction(GameActionManager.GameAction.Run))
+            if (man.GetAction(GameActionManager.GameAction.Run) && man.GetAction(GameActionManager.GameAction.MoveUp) && fatigue > 0)
             {
                 transform.position += transform.right * runSpeed * Time.deltaTime;
+                fatigue--;
+            }
+            if (man.GetAction(GameActionManager.GameAction.Run) && man.GetAction(GameActionManager.GameAction.MoveDown) && fatigue > 0)
+            {
+                transform.position -= transform.right * runSpeed * Time.deltaTime;
+                fatigue--;
+            }
+            if (man.GetAction(GameActionManager.GameAction.Run) && man.GetAction(GameActionManager.GameAction.MoveRight) && fatigue > 0)
+            {
+                transform.position += transform.up * runSpeed * Time.deltaTime;
+                fatigue--;
+            }
+            if (man.GetAction(GameActionManager.GameAction.Run) && man.GetAction(GameActionManager.GameAction.MoveLeft) && fatigue > 0)
+            {
+                transform.position -= transform.up * runSpeed * Time.deltaTime;
+                fatigue--;
+            }
+            if (fatigue != saveFatigue && !(man.GetAction(GameActionManager.GameAction.Run)))
+            {
+                fatigue++;
             }
         }
     }
