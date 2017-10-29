@@ -32,6 +32,7 @@ public class GameActionManager : MonoBehaviour
     }
 
     public bool WindowsDebug;
+    private bool AndroidPlatform = Application.platform == RuntimePlatform.Android;
 
     public static GameActionManager Instance { get; private set; }
 
@@ -47,7 +48,25 @@ public class GameActionManager : MonoBehaviour
         InputMobileSetting = new AndroidPair[System.Enum.GetNames(typeof(GameAction)).Length];
     }
 
-    public void GetMouseLook2D(Vector3 pos, out Vector2 mousePosWorld, out Quaternion lookRot)
+    public void GetPlayerRotation(Vector3 pos, out Vector2? mousePosWorld, out Quaternion? lookRot)
+    {
+        if (AndroidPlatform)
+        {
+            mousePosWorld = new Vector2();
+            var r = GetVirtual();
+            if (r.HasValue)
+                lookRot = r.Value;
+            else
+                lookRot = null;
+        }
+        else
+        {
+            GetMouseLook2D(pos, out mousePosWorld, out lookRot);
+            lookRot = lookRot.Value * Quaternion.Euler(0, 0, 90);
+        }
+    }
+
+    void GetMouseLook2D(Vector3 pos, out Vector2? mousePosWorld, out Quaternion? lookRot)
     {
         var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Quaternion rot = Quaternion.LookRotation(pos - mousePosition, Vector3.forward);
@@ -58,13 +77,60 @@ public class GameActionManager : MonoBehaviour
 
     public bool GetAction(GameAction action)
     {
-        if ((Application.platform == RuntimePlatform.Android || UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.Android) && !WindowsDebug)
+
+
+        //if ((Application.platform == RuntimePlatform.Android || UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.Android) && !WindowsDebug)
+        if (AndroidPlatform)
             return GetAndroidAction(action);
         else
-             return GetWindowsAction(action);
-
+            return GetWindowsAction(action);
     }
 
+    public Vector2 GetMove()
+    {
+        Vector2 move = new Vector2(0, 0);
+        if (AndroidPlatform)
+        {
+            move = new Vector2(CrossPlatformInputManager.GetAxis("Horizontal"), CrossPlatformInputManager.GetAxis("Vertical"));
+        }
+        else
+        {
+            if (GetWindowsAction(GameAction.MoveUp))
+            {
+                move = new Vector2(0, 1);
+            }
+            if (GetWindowsAction(GameAction.MoveDown))
+            {
+                move = new Vector2(0, -1);
+            }
+            if (GetWindowsAction(GameAction.MoveLeft))
+            {
+                move = new Vector2(-1, 0);
+            }
+            if (GetWindowsAction(GameAction.MoveRight))
+            {
+                move = new Vector2(1, 0);
+            }
+        }
+
+
+        return move;
+    }
+
+
+    Quaternion? GetVirtual()
+    {
+        var x = CrossPlatformInputManager.GetAxis("Mouse X");
+        var y = CrossPlatformInputManager.GetAxis("Mouse Y");
+        if (x != 0 && y != 0)
+        {
+            float headingAngle = Mathf.Atan2(y, x) * Mathf.Rad2Deg;
+            if (headingAngle < 0) headingAngle += 360f;
+            Quaternion newHeading = Quaternion.Euler(0f, 0f, headingAngle);
+            return newHeading;
+        }
+        return null;
+    }
 
     private bool GetWindowsAction(GameAction action)
     {
@@ -81,11 +147,12 @@ public class GameActionManager : MonoBehaviour
         if (!item.IsButton)
         {
             float axisVal = CrossPlatformInputManager.GetAxis(item.Key);
+
             if (action == GameAction.MoveLeft || action == GameAction.MoveUp)
-                return axisVal < 0 ? true : false;
+                return axisVal > 0 ? true : false;
 
             if (action == GameAction.MoveRight || action == GameAction.MoveDown)
-                return axisVal > 0 ? true : false;
+                return axisVal < 0 ? true : false;
         }
         else
             return CrossPlatformInputManager.GetButton(item.Key);
@@ -96,13 +163,16 @@ public class GameActionManager : MonoBehaviour
     {
         if (Instance == null)
             Instance = this;
-
+        Input.simulateMouseWithTouches = false;
     }
 
 
     void Start()
     {
-
+#if UNITY_EDITOR
+        AndroidPlatform |= UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.Android;
+        AndroidPlatform &= !WindowsDebug;
+#endif
     }
 
     void Update()
