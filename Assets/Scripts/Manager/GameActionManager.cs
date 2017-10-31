@@ -16,6 +16,8 @@ public struct AndroidPair
 {
     public GameActionManager.GameAction Action;
     public bool IsButton;
+    public bool ButtonDown;
+    public bool ButtonClamp;
     public string Key;
 }
 
@@ -52,7 +54,7 @@ public class GameActionManager : MonoBehaviour
     {
         if (AndroidPlatform)
         {
-            mousePosWorld = new Vector2();
+            mousePosWorld = new Vector2(pos.x+1,pos.y+1);
             var r = GetVirtual();
             if (r.HasValue)
                 lookRot = r.Value;
@@ -77,9 +79,6 @@ public class GameActionManager : MonoBehaviour
 
     public bool GetAction(GameAction action)
     {
-
-
-        //if ((Application.platform == RuntimePlatform.Android || UnityEditor.EditorUserBuildSettings.activeBuildTarget == UnityEditor.BuildTarget.Android) && !WindowsDebug)
         if (AndroidPlatform)
             return GetAndroidAction(action);
         else
@@ -97,22 +96,21 @@ public class GameActionManager : MonoBehaviour
         {
             if (GetWindowsAction(GameAction.MoveUp))
             {
-                move = new Vector2(0, 1);
+                move += new Vector2(0, 1);
             }
             if (GetWindowsAction(GameAction.MoveDown))
             {
-                move = new Vector2(0, -1);
+                move += new Vector2(0, -1);
             }
             if (GetWindowsAction(GameAction.MoveLeft))
             {
-                move = new Vector2(-1, 0);
+                move += new Vector2(-1, 0);
             }
             if (GetWindowsAction(GameAction.MoveRight))
             {
-                move = new Vector2(1, 0);
+                move += new Vector2(1, 0);
             }
         }
-
 
         return move;
     }
@@ -154,8 +152,11 @@ public class GameActionManager : MonoBehaviour
             if (action == GameAction.MoveRight || action == GameAction.MoveDown)
                 return axisVal < 0 ? true : false;
         }
-        else
+        else if (item.ButtonDown)
+            return CrossPlatformInputManager.GetButtonDown(item.Key);
+        else if (item.ButtonClamp)
             return CrossPlatformInputManager.GetButton(item.Key);
+
         return false;
     }
 
