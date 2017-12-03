@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public static class MyExtensions
+{
+    public static Quaternion LookRotation2D(this Quaternion qua, Vector2 vec)
+    {
+        float angle = (Mathf.Atan2(-vec.x, vec.y) * Mathf.Rad2Deg) + 90;
+        return Quaternion.AngleAxis(angle, Vector3.forward);
+    }
+}
 public class EnemyMove : MonoBehaviour
 {
 
@@ -18,23 +26,23 @@ public class EnemyMove : MonoBehaviour
     {
         var PlayerVector = new Vector2(Player.transform.position.x, Player.transform.position.y);
         var EnemyVector = new Vector2(transform.position.x, transform.position.y);
+        var moveDirection = PlayerVector - EnemyVector;
 
         if ((EnemyVector - PlayerVector).magnitude < 2)
         {
-            MathResult = Mathf.Acos(Vector2.Dot((PlayerVector - EnemyVector).normalized, Player.transform.right.normalized)) * Mathf.Rad2Deg;
-            EnemyLook(EnemyVector, PlayerVector);
-            if (MathResult < 50)
+            MathResult = Mathf.Acos(Vector2.Dot((PlayerVector - EnemyVector).normalized, transform.right.normalized)) * Mathf.Rad2Deg;
+            print(MathResult);
+            if (MathResult < 90)
             {
-
+                EnemyLook(moveDirection);
             }
         }
     }
 
-    private void EnemyLook(Vector2 pos, Vector2 player)
+    private void EnemyLook(Vector2 moveDirection)
     {
-        Quaternion rot = Quaternion.LookRotation(player - pos);
-        rot.eulerAngles = new Vector3(0, 0, -rot.eulerAngles.x);
-
-        transform.rotation = rot;
+        Quaternion quaternion = new Quaternion();
+        quaternion = quaternion.LookRotation2D(moveDirection);
+        transform.rotation = Quaternion.Lerp(transform.rotation, quaternion, 0.05f);
     }
 }
