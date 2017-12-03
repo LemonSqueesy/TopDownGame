@@ -30,7 +30,7 @@ public class GameActionManager : MonoBehaviour
         MoveUp,
         MoveDown,
         Run,
-        Shot
+        Shoot
     }
 
     public bool WindowsDebug;

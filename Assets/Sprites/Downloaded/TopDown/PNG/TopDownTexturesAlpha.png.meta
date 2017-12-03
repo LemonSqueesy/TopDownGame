@@ -1,0 +1,1558 @@
+fileFormatVersion: 2
+guid: 0350792f8a66c764494c89442c6d0d19
+timeCreated: 1509306179
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TopDownTexturesAlpha_0
+    21300002: TopDownTexturesAlpha_1
+    21300004: TopDownTexturesAlpha_2
+    21300006: TopDownTexturesAlpha_3
+    21300008: TopDownTexturesAlpha_4
+    21300010: TopDownTexturesAlpha_5
+    21300012: TopDownTexturesAlpha_6
+    21300014: TopDownTexturesAlpha_7
+    21300016: TopDownTexturesAlpha_8
+    21300018: TopDownTexturesAlpha_9
+    21300020: TopDownTexturesAlpha_10
+    21300022: TopDownTexturesAlpha_11
+    21300024: TopDownTexturesAlpha_12
+    21300026: TopDownTexturesAlpha_13
+    21300028: TopDownTexturesAlpha_14
+    21300030: TopDownTexturesAlpha_15
+    21300032: TopDownTexturesAlpha_16
+    21300034: TopDownTexturesAlpha_17
+    21300036: TopDownTexturesAlpha_18
+    21300038: TopDownTexturesAlpha_19
+    21300040: TopDownTexturesAlpha_20
+    21300042: TopDownTexturesAlpha_21
+    21300044: TopDownTexturesAlpha_22
+    21300046: TopDownTexturesAlpha_23
+    21300048: TopDownTexturesAlpha_24
+    21300050: TopDownTexturesAlpha_25
+    21300052: TopDownTexturesAlpha_26
+    21300054: TopDownTexturesAlpha_27
+    21300056: TopDownTexturesAlpha_28
+    21300058: TopDownTexturesAlpha_29
+    21300060: TopDownTexturesAlpha_30
+    21300062: TopDownTexturesAlpha_31
+    21300064: TopDownTexturesAlpha_32
+    21300066: TopDownTexturesAlpha_33
+    21300068: TopDownTexturesAlpha_34
+    21300070: TopDownTexturesAlpha_35
+    21300072: TopDownTexturesAlpha_36
+    21300074: TopDownTexturesAlpha_37
+    21300076: TopDownTexturesAlpha_38
+    21300078: TopDownTexturesAlpha_39
+    21300080: TopDownTexturesAlpha_40
+    21300082: TopDownTexturesAlpha_41
+    21300084: TopDownTexturesAlpha_42
+    21300086: TopDownTexturesAlpha_43
+    21300088: TopDownTexturesAlpha_44
+    21300090: TopDownTexturesAlpha_45
+    21300092: TopDownTexturesAlpha_46
+    21300094: TopDownTexturesAlpha_47
+    21300096: TopDownTexturesAlpha_48
+    21300098: TopDownTexturesAlpha_49
+    21300100: TopDownTexturesAlpha_50
+    21300102: TopDownTexturesAlpha_51
+    21300104: TopDownTexturesAlpha_52
+    21300106: TopDownTexturesAlpha_53
+    21300108: TopDownTexturesAlpha_54
+    21300110: TopDownTexturesAlpha_55
+    21300112: TopDownTexturesAlpha_56
+    21300114: TopDownTexturesAlpha_57
+    21300116: TopDownTexturesAlpha_58
+    21300118: TopDownTexturesAlpha_59
+    21300120: TopDownTexturesAlpha_60
+    21300122: TopDownTexturesAlpha_61
+    21300124: TopDownTexturesAlpha_62
+    21300126: TopDownTexturesAlpha_63
+    21300128: TopDownTexturesAlpha_64
+    21300130: TopDownTexturesAlpha_65
+    21300132: TopDownTexturesAlpha_66
+    21300134: TopDownTexturesAlpha_67
+    21300136: TopDownTexturesAlpha_68
+    21300138: TopDownTexturesAlpha_69
+    21300140: TopDownTexturesAlpha_70
+    21300142: TopDownTexturesAlpha_71
+    21300144: TopDownTexturesAlpha_72
+    21300146: TopDownTexturesAlpha_73
+    21300148: TopDownTexturesAlpha_74
+    21300150: TopDownTexturesAlpha_75
+    21300152: TopDownTexturesAlpha_76
+    21300154: TopDownTexturesAlpha_77
+    21300156: TopDownTexturesAlpha_78
+    21300158: TopDownTexturesAlpha_79
+    21300160: TopDownTexturesAlpha_80
+    21300162: TopDownTexturesAlpha_81
+    21300164: TopDownTexturesAlpha_82
+    21300166: TopDownTexturesAlpha_83
+    21300168: TopDownTexturesAlpha_84
+    21300170: TopDownTexturesAlpha_85
+    21300172: TopDownTexturesAlpha_86
+    21300174: TopDownTexturesAlpha_87
+    21300176: TopDownTexturesAlpha_88
+    21300178: TopDownTexturesAlpha_89
+    21300180: TopDownTexturesAlpha_90
+    21300182: TopDownTexturesAlpha_91
+    21300184: TopDownTexturesAlpha_92
+    21300186: TopDownTexturesAlpha_93
+    21300188: TopDownTexturesAlpha_94
+    21300190: TopDownTexturesAlpha_98
+    21300192: TopDownTexturesAlpha_105
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 457
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 457
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 457
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 457
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 457
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 457
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 457
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_15
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 457
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 457
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_24
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_27
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_33
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_34
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 391
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_39
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_40
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_41
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_42
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_43
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 358
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_45
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_46
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_47
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_48
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_49
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_50
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_51
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_52
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_55
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_56
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_57
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_58
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_59
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_60
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_61
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 292
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_63
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_64
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_65
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_66
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_67
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_68
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_69
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_70
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_72
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_74
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_75
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_76
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_77
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_78
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_79
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_81
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_82
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_83
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_84
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_85
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_86
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_87
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_88
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 193
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_90
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_91
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_92
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_93
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_94
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TopDownTexturesAlpha_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

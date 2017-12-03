@@ -22,7 +22,7 @@ public class PlayerMove : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         Vector2? mouseVector = new Vector2();
         Quaternion? rot;
@@ -50,7 +50,7 @@ public class PlayerMove : MonoBehaviour
 
                 mov *= Speed * Time.deltaTime;
                 transform.Translate(mov.x, mov.y, 0, Space.World);
-                //transform.Translate(mov.y, -mov.x, 0, Space.Self);
+                
             }
 
             if (Fatigue < fatigueSave && !(man.GetAction(GameActionManager.GameAction.Run)))
