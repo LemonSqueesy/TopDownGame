@@ -31,7 +31,7 @@ public class EnemyMove : MonoBehaviour
         if ((EnemyVector - PlayerVector).magnitude < 2)
         {
             MathResult = Mathf.Acos(Vector2.Dot((PlayerVector - EnemyVector).normalized, transform.right.normalized)) * Mathf.Rad2Deg;
-            print(MathResult);
+           // print(MathResult);
             if (MathResult < 90)
             {
                 EnemyLook(moveDirection);

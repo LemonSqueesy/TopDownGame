@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Diagnostics;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -6,13 +7,25 @@ using UnityEngine.UI;
 
 public class DebugConsole : MonoBehaviour
 {
+    System.Diagnostics.PerformanceCounter cpuCounter;
+    System.Diagnostics.PerformanceCounter ramCounter;
 
     public Transform ScrollContent;
     public Transform Scroll;
-    public InputField Input;
-    public Text DebugText;
-    public TilemapCollider2D Tilemap;
 
+    public InputField Input;
+
+    public Text DebugText;
+    public Text FPS;
+    public Text CPU;
+    public Text RAM;
+    public Text AudioDB;
+
+    private float updateInterval = 0.5f;
+    private float powerBank = 0.0f;
+    private float clocksGone;
+
+    private int cadre = 0;
     Transform FindRec(Transform root, System.Predicate<Transform> predicate)
     {
         if (predicate(root))
@@ -31,13 +44,44 @@ public class DebugConsole : MonoBehaviour
 
     void Start()
     {
+        cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total",true);
 
+        //cpuCounter.CategoryName = "Processor";
+        //cpuCounter.CounterName = "% Processor Time";
+        //cpuCounter.InstanceName = "_Total";
+        
+
+        ramCounter = new PerformanceCounter("Memory", "Available MBytes");
+
+        FPS.gameObject.SetActive(false);
+        CPU.gameObject.SetActive(false);
+        RAM.gameObject.SetActive(false);
+
+        clocksGone = updateInterval;
         if (Scroll)
             Scroll.gameObject.SetActive(false);
     }
 
     void Update()
     {
+        if (FPS.gameObject.activeInHierarchy) //в нулевой, потому что захотелось, какая разница, ведь я делаю active весь массив. Чекай строку 100!
+        {
+            CPU.text = "> CPU: " + GetCPU();
+            RAM.text = "> RAM: " + GetRAM();
+
+            clocksGone -= Time.deltaTime;
+            powerBank += Time.timeScale / Time.deltaTime;
+            ++cadre;
+
+            if (clocksGone <= 0.0f)
+            {
+                FPS.text = (powerBank / cadre).ToString("f2");
+
+                clocksGone = updateInterval;
+                powerBank = 0.0f;
+                cadre = 0;
+            }
+        }
 
     }
 
@@ -45,8 +89,6 @@ public class DebugConsole : MonoBehaviour
     {
         if (Scroll)
             Scroll.gameObject.SetActive(!Scroll.gameObject.activeInHierarchy);
-
-        Print("Tilemap is" + Tilemap.enabled.ToString());
     }
 
     public void Submit()
@@ -68,9 +110,15 @@ public class DebugConsole : MonoBehaviour
             switch (comm)
             {
                 case "kek":
-                Application.OpenURL("https://geektimes.ru/post/294881/.com[perevod]-mayning-efiriuma-za-5-minut");
+                    Application.OpenURL("https://geektimes.ru/post/294881/.com[perevod]-mayning-efiriuma-za-5-minut");
                     break;
-                    
+
+                case "stats":
+                    FPS.gameObject.SetActive(true);
+                    CPU.gameObject.SetActive(true);
+                    RAM.gameObject.SetActive(true);
+                    break;
+
             }
         }
     }
@@ -79,5 +127,15 @@ public class DebugConsole : MonoBehaviour
     {
         var text = Instantiate(DebugText, ScrollContent);
         text.text = message;
+    }
+
+    public string GetCPU()
+    {
+        return cpuCounter.NextValue() + " %";
+    }
+
+    public string GetRAM()
+    {
+        return ramCounter.NextValue() + " MB";
     }
 }
